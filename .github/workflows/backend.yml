@@ -16,3 +16,7 @@ jobs :
         with:
           python-version : '3.11'
           cache: pip
+      - name : etape
+        run : |
+          cd backend
+          uv run pytest -v --cov
