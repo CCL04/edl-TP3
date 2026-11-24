@@ -2,6 +2,10 @@
 
 API FastAPI de gestion de tâches. Les tâches sont stockées en mémoire (TP 1 et 2), puis dans PostgreSQL (TP 3).
 
+# TaskFlow API
+
+![CI Pipeline](https://github.com/CCL04/edl-TP3/actions/workflows/ci-pipeline.yml/badge.svg)
+
 ## Lancer
 
 ```bash
